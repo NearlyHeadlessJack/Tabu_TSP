@@ -1,4 +1,9 @@
-
+'''
+@文件名:savedata.py
+@描述:保存数据和文件的类
+@author:NearlyHeadlessJack@rjack.cn
+@comment:save方法保存数据,write_data方法写文件
+'''
 class SaveData:
     exp_result = []
     exp_tsize = []

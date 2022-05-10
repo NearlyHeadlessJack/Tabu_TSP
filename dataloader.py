@@ -1,11 +1,14 @@
 '''
-用于读取tsp文件
+@文件名:dataloader.py
+@描述:数据读取迭代器类
+@author:NearlyHeadlessJack@rjack.cn
+@comment:修改城市信息的元数据请在这里修改
 '''
 import pandas as pd
 import numpy as np
 
 
-class Dataloder:
+class Dataloader:
     city_name = []
     city_location = []
     cities = []
